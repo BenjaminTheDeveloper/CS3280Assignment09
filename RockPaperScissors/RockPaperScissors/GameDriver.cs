@@ -30,6 +30,7 @@ namespace RockPaperScissors
             this.leaderboard = new Leaderboard(new List<User> { new User("Jake", 23), new User("Ben", 10), new User("Jerry", 5) });
             GetUserName();
             this.user = new User(name);
+            leaderboard.AddPlayer(this.user);
         }
 
 
