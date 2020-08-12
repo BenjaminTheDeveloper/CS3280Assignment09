@@ -13,7 +13,8 @@ namespace RockPaperScissors
             GameDriver gameDriver = new GameDriver();
 
             //Run the game instance
-            gameDriver.RunGame();
+            gameDriver.RunMenu();
         }
     }
 }
+
